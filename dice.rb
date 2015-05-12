@@ -1,11 +1,12 @@
 class Dice
-
+  
   def roll
     rand 1..6
   end
 end
 
 class LoadedDice < Dice
+
 
   def roll
     6
